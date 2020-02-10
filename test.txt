@@ -1,3 +1,8 @@
 第一步：建立git仓库
 新建一个本地仓库，其实也就是新建一个文件夹。最简单的创建方式就是直接在桌面鼠标右键，新建文件夹(test)，然后进去该文件夹。鼠标右键，打开git -> Git Bash Here -> git init。执行命令后目录下创建一个.git文件夹。
 git init
+
+既然待添加，下一步自然就是添加了，如何添加，git add + 需要添加的文件名 或者git add --all 将所有的文件全部添加，我这里是git add test.txt，然后再次git status 查看状态，可以发现test.txt变成了绿色，这时候文件就已经添加到本地仓库了
+
+第三步：将项目的所有文件添加到仓库中
+git add test.txt
